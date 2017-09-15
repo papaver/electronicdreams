@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="app" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>App</title>
+    <meta name="description" content="Software dream weavers. We build custom solutions tailored for you.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- bower:css -\- wiredep auto injects bower css dependencies -->
+    <!-- endbower -->
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,500,700" rel="stylesheet">
+
+  </head>
+  <body>
+    <div ng-view></div>
+
+    <!-- bower:js -\- wiredep auto injects bower js dependencies -->
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/underscore.js"></script>
+    <!-- endbower -->
+
+    <!-- root angular module -->
+    <script src="index.js"></script>
+
+    <!-- angular dependencies -->
+    <script src="app/core/core.js"></script>
+    <script src="app/utils/utils.js"></script>
+    <script src="app/main/main.js"></script>
+  </body>
+</html>
