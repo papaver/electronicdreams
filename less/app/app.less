@@ -190,12 +190,31 @@ html, body {
   margin-right: auto;
   text-align: center;
   color: #333;
+
+  @media (max-width: @screen-xs-max) {
+    width: 90%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  @media (max-width: 420px) {
+    h1 {
+      font-size: 68px;
+    }
+  }
+
 }
 
 .clients-ct {
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center;
+
+  @media (max-width: 420px) {
+    .col-xs-6 {
+      width: 100%;
+    }
+  }
 
   .client-ct {
 
@@ -214,6 +233,12 @@ html, body {
 .values-ct {
   margin-left: 25px;
   margin-right: 25px;
+
+  @media (max-width: @screen-xs-max) {
+    .col-sm-4 + .col-sm-4 {
+      margin-top: 25px;
+    }
+  }
 
   .value-ct {
     text-align: center;
@@ -245,6 +270,11 @@ html, body {
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: @screen-xs-max) {
+      width: 80%;
+      font-size: 15px;
+    }
   }
 
   .author-ct {
@@ -263,7 +293,14 @@ html, body {
   margin-left: 45px;
   margin-right: 45px;
 
-  .profile-ct {
+  @media (max-width: @screen-xs-max) {
+    .col-sm-6 {
+      margin-top: 25px;
+
+      & + .col-sm-6 {
+        margin-top: 65px;
+      }
+    }
   }
 
   .image-ct{

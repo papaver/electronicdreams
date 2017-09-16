@@ -9229,10 +9229,27 @@ body {
   text-align: center;
   color: #333;
 }
+@media (max-width: 767px) {
+  .shout-ct {
+    width: 90%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 420px) {
+  .shout-ct h1 {
+    font-size: 68px;
+  }
+}
 .clients-ct {
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center;
+}
+@media (max-width: 420px) {
+  .clients-ct .col-xs-6 {
+    width: 100%;
+  }
 }
 .clients-ct .client-ct .client-logo {
   width: 150px;
@@ -9241,6 +9258,11 @@ body {
 .values-ct {
   margin-left: 25px;
   margin-right: 25px;
+}
+@media (max-width: 767px) {
+  .values-ct .col-sm-4 + .col-sm-4 {
+    margin-top: 25px;
+  }
 }
 .values-ct .value-ct {
   text-align: center;
@@ -9268,6 +9290,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 767px) {
+  .kudos-ct .kudos-copy {
+    width: 80%;
+    font-size: 15px;
+  }
+}
 .kudos-ct .author-ct {
   margin-left: 25px;
   font-style: normal;
@@ -9280,6 +9308,14 @@ body {
   font-size: 16px;
   margin-left: 45px;
   margin-right: 45px;
+}
+@media (max-width: 767px) {
+  .about-ct .col-sm-6 {
+    margin-top: 25px;
+  }
+  .about-ct .col-sm-6 + .col-sm-6 {
+    margin-top: 65px;
+  }
 }
 .about-ct .image-ct {
   margin: auto;
