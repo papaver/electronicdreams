@@ -9221,17 +9221,18 @@ body {
   padding-bottom: 45px;
 }
 .shout-ct {
-  width: 640px;
+  background-image: url(../images/backgrounds/theodor-lundqvist-364382.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  color: #333;
+  color: #fafafa;
 }
 @media (max-width: 767px) {
   .shout-ct {
-    width: 90%;
     padding-top: 90px;
     padding-bottom: 90px;
   }
@@ -9239,6 +9240,25 @@ body {
 @media (max-width: 420px) {
   .shout-ct h1 {
     font-size: 68px;
+  }
+}
+.shout-ct .logo-ct {
+  width: 175px;
+  top: 15px;
+  left: 15px;
+  position: absolute;
+}
+.shout-ct .logo-ct .logo {
+  width: 100%;
+}
+.shout-ct .content-ct {
+  width: 640px;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .shout-ct .content-ct {
+    width: 90%;
+    margin-top: 55px;
   }
 }
 .clients-ct {
@@ -9266,6 +9286,7 @@ body {
 }
 .values-ct .value-ct {
   text-align: center;
+  line-height: 22px;
   width: 75%;
   margin: auto;
 }
@@ -9279,14 +9300,50 @@ body {
 .values-ct .title-ct h4 {
   font-weight: 700;
 }
+.skills-ct {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  .skills-ct .col-sm-6 + .col-sm-6 {
+    margin-top: 45px;
+  }
+}
+.skills-ct .skill-ct {
+  text-align: center;
+  line-height: 22px;
+  width: 75%;
+  margin: auto;
+}
+.skills-ct .skill-ct .skill-copy {
+  text-align: left;
+}
+.skills-ct .icon-ct {
+  font-size: 56px;
+  margin-bottom: 15px;
+}
+.skills-ct .title-ct {
+  margin-bottom: 23px;
+}
+.skills-ct .title-ct h4 {
+  font-weight: 700;
+}
+.skills-ct ul {
+  margin: auto;
+  margin-top: 15px;
+  text-align: left;
+  display: table;
+}
 .kudos-ct {
   padding-top: 55px;
   padding-bottom: 55px;
+  background-color: #000;
+  color: #eee;
 }
 .kudos-ct .kudos-copy {
   width: 600px;
-  font-style: italic;
   font-size: 16px;
+  line-height: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -9294,6 +9351,7 @@ body {
   .kudos-ct .kudos-copy {
     width: 80%;
     font-size: 15px;
+    line-height: 23px;
   }
 }
 .kudos-ct .author-ct {
@@ -9306,6 +9364,7 @@ body {
 }
 .about-ct {
   font-size: 16px;
+  line-height: 26px;
   margin-left: 45px;
   margin-right: 45px;
 }
