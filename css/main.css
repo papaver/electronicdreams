@@ -9391,6 +9391,17 @@ body {
 .about-ct .title-ct h4 {
   font-weight: 700;
 }
+.about-ct .icons-ct {
+  text-align: center;
+  font-size: 33px;
+  margin-top: 25px;
+}
+.about-ct .icons-ct .link {
+  color: #333;
+}
+.about-ct .icons-ct .link + .link {
+  margin-left: 10px;
+}
 .contact-ct .submit-ct {
   text-align: center;
 }
