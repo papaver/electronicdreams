@@ -9084,7 +9084,7 @@ h3 {
   text-align: center;
 }
 h4 {
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -9387,9 +9387,20 @@ body {
 }
 .about-ct .title-ct {
   text-align: center;
+  margin-bottom: 20px;
 }
 .about-ct .title-ct h4 {
   font-weight: 700;
+}
+.about-ct .profile-ct {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media (max-width: 767px) {
+  .about-ct .profile-ct {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 .about-ct .icons-ct {
   text-align: center;
@@ -9409,6 +9420,9 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 15px;
+}
+.footer-ct {
+  background-color: #0e1f3b;
 }
 .footer-ct .logo-ct {
   width: 300px;

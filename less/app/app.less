@@ -54,7 +54,7 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -240,11 +240,6 @@ html, body {
 
   .client-ct {
 
-    &:hover {
-      //opacity: 0.3;
-      //background-color: #eee;
-    }
-
     .client-logo {
       width: 150px;
       height: 150px;
@@ -372,7 +367,7 @@ html, body {
     }
   }
 
-  .image-ct{
+  .image-ct {
     margin: auto;
     display: table;
     margin-bottom: 45px;
@@ -385,9 +380,20 @@ html, body {
 
   .title-ct {
     text-align: center;
+    margin-bottom: 20px;
 
     h4 {
       font-weight: 700;
+    }
+  }
+
+  .profile-ct {
+    padding-left: 25px;
+    padding-right: 25px;
+
+    @media (max-width: @screen-xs-max) {
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }
 
@@ -420,6 +426,8 @@ html, body {
 }
 
 .footer-ct {
+  background-color: #0e1f3b;
+
   .logo-ct {
     width: 300px;
     margin: auto;
